@@ -13,7 +13,7 @@ const attractions = [
   },
   {
     image: Atraktif2,
-    title: "Area Piknik & Bersantai",
+    title: "Area Piknik, Bersantai, & Camping",
     description: "Nikmati suasana tenang dan udara sejuk bersama keluarga dan teman di tepi waduk.",
   },
   {

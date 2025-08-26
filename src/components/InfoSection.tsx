@@ -171,7 +171,7 @@ const InfoSection: React.FC = () => {
               <FaTicketAlt className="text-4xl text-forest-green mr-4" />
               <div>
                 <h3 className="font-bold font-montserrat text-xl text-forest-green">Tiket Masuk</h3>
-                <p className="text-wood-brown">Gratis (Donasi sukarela untuk kebersihan)</p>
+                <p className="text-wood-brown">Rp 5.000 per orang</p>
               </div>
             </motion.div>
 

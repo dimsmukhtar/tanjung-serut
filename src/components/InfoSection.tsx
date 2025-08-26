@@ -4,7 +4,6 @@ import { GoogleMap, useJsApiLoader, MarkerF } from "@react-google-maps/api"
 import {
   FaClock,
   FaTicketAlt,
-  FaWifi,
   FaParking,
   FaRestroom,
   FaUtensils,

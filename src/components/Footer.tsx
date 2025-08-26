@@ -1,5 +1,5 @@
 import React from "react"
-import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa"
+import { FaInstagram, FaTiktok } from "react-icons/fa"
 import { Link } from "react-router-dom" // <-- 1. Impor komponen Link
 
 const Footer: React.FC = () => {

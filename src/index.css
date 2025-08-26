@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import "tailwindcss";
+
+@theme {
+  --color-forest-green: #224b0c;
+  --color-lake-blue: #4a90e2;
+  --color-wood-brown: #8b5a2b;
+  --color-sandy-beige: #f5eedc;
+  --color-sunset-orange: #f39c12;
+
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-nunito: "Nunito Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f5eedc;
+  color: #224b0c;
+}
+
+@keyframes kenburns-effect {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.1) translate(-2%, 2%);
+  }
+}
+
+.ken-burns-background {
+  animation: kenburns-effect 20s infinite alternate ease-in-out;
+}
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-20px) translateX(-10px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}

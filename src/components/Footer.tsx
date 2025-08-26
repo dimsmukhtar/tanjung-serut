@@ -1,5 +1,5 @@
 import React from "react"
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa"
+import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa"
 import { Link } from "react-router-dom" // <-- 1. Impor komponen Link
 
 const Footer: React.FC = () => {
@@ -61,25 +61,18 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold font-montserrat mb-4">Ikuti Kami</h3>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
-                href="#" // Ganti dengan link Instagram Anda
+                href="https://www.instagram.com/kpmsumbersari02/"
                 aria-label="Instagram"
                 className="text-2xl hover:text-sunset-orange transform hover:scale-125 transition-transform"
               >
                 <FaInstagram />
               </a>
               <a
-                href="#" // Ganti dengan link Facebook Anda
-                aria-label="Facebook"
+                href="https://www.tiktok.com/@kpm2sumbersari"
+                aria-label="Tiktok"
                 className="text-2xl hover:text-sunset-orange transform hover:scale-125 transition-transform"
               >
-                <FaFacebook />
-              </a>
-              <a
-                href="#" // Ganti dengan link Youtube Anda
-                aria-label="Youtube"
-                className="text-2xl hover:text-sunset-orange transform hover:scale-125 transition-transform"
-              >
-                <FaYoutube />
+                <FaTiktok />
               </a>
             </div>
           </div>

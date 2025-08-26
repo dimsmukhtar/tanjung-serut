@@ -79,7 +79,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="text-center border-t border-sandy-beige/30 py-4">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Dibuat dengan ❤️ oleh Tim KPM UNSIQ Desa Sumbersari
+            &copy; {new Date().getFullYear()} Dibuat dengan ❤️ oleh Tim 02 KPM UNSIQ 51 Desa
+            Sumbersari
           </p>
         </div>
       </div>

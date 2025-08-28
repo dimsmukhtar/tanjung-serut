@@ -34,7 +34,13 @@ const HeroSection: React.FC = () => {
           variants={itemVariants}
           className="text-4xl md:text-6xl lg:text-7xl font-bold font-montserrat mb-4 drop-shadow-lg"
         >
-          Temukan Ketenangan di Tanjung Serut
+          Temukan Ketenangan di{" "}
+          <span
+            className="bg-gradient-to-r from-green-300 via-lake-blue to-sunset-orange text-transparent bg-clip-text"
+            style={{ backgroundSize: "200% 200%", animation: "animated-gradient 5s ease infinite" }}
+          >
+            Tanjung Serut
+          </span>
         </motion.h1>
 
         <motion.p

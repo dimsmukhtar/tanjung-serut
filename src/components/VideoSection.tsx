@@ -8,7 +8,7 @@ const VideoSection: React.FC = () => {
   const [isOpen, setOpen] = useState(false)
 
   // Ganti dengan ID video YouTube Anda
-  const YOUTUBE_VIDEO_ID = "YcHzPRZOmxQ"
+  const YOUTUBE_VIDEO_ID = "h5cClzYR3Ss"
 
   return (
     <section className="py-20 bg-sandy-beige overflow-x-hidden">
